@@ -1,28 +1,172 @@
 {
-  "products": [
+  "categories":[
     {
-      "id": 1,
-      "name": "Coca Cola",
-      "type": "",
-      "photo":
-        "https://images-na.ssl-images-amazon.com/images/I/51iAZ2nZ4zL._SX679_.jpg",
-      "code": "87243",
-      "salePrice": 8.0,
-      "purchasePrice": 7.5,
-      "amount": 20,
-      "categoryId": 1
+      "id":1,
+      "name":"Lacteos",
+      "products": [
+        {
+          "id": 1,
+          "name": "Leche Pil",
+          "type": "",
+          "photo":
+            "https://pilandina.com.bo/wp-content/uploads/2019/06/lechedeslactosada.png",
+          "code": "45345",
+          "salePrice": 5.0,
+          "purchasePrice": 4.5,
+          "amount": 30,
+          "categoryId": 1
+        },
+        {
+          "id": 2,
+          "name": "Mantequilla Pil",
+          "type": "",
+          "photo":
+            "https://www.ketal.com.bo/image/cache/catalog/product/26040221-1100x1100.jpg",
+          "code": "6573",
+          "salePrice": 7.0,
+          "purchasePrice": 6.5,
+          "amount": 10,
+          "categoryId": 1
+        },
+        {
+          "id": 3,
+          "name": "Yogurt",
+          "type": "",
+          "photo":
+            "https://pilandina.com.bo/wp-content/uploads/2019/06/500x500-frutilla-1L-600x600.jpg",
+          "code": "6573",
+          "salePrice": 10.0,
+          "purchasePrice": 8.5,
+          "amount": 15,
+          "categoryId": 1
+        }
+      ]
     },
     {
-      "id": 1,
-      "name": "Coca Cola",
-      "type": "",
-      "photo":
-        "https://images-na.ssl-images-amazon.com/images/I/51iAZ2nZ4zL._SX679_.jpg",
-      "code": "87243",
-      "salePrice": 8.0,
-      "purchasePrice": 7.5,
-      "amount": 20,
-      "categoryId": 1
+      "id":2,
+      "name":"Bebidas",
+      "products": [
+        {
+          "id": 4,
+          "name": "Coca Cola",
+          "type": "",
+          "photo":
+            "https://images-na.ssl-images-amazon.com/images/I/51iAZ2nZ4zL._SX679_.jpg",
+          "code": "5436",
+          "salePrice": 8.0,
+          "purchasePrice": 7.5,
+          "amount": 20,
+          "categoryId": 2
+        },
+        {
+          "id": 5,
+          "name": "Pura Vida",
+          "type": "",
+          "photo":
+            "https://cdn.shopify.com/s/files/1/0368/1363/5716/products/7772905005727_590x590.jpg?v=1602598178",
+          "code": "3452",
+          "salePrice": 9.0,
+          "purchasePrice": 7.5,
+          "amount": 40,
+          "categoryId": 2
+        },
+        {
+          "id": 6,
+          "name": "Pepsi",
+          "type": "",
+          "photo":
+            "https://www.ketal.com.bo/image/cache/catalog/product/80152492-550x550.jpg",
+          "code": "67564",
+          "salePrice": 12.0,
+          "purchasePrice": 11.0,
+          "amount": 10,
+          "categoryId": 2
+        }
+      ]
+    },
+    {
+      "id":3,
+      "name":"Carne",
+      "products": [
+        {
+          "id": 7,
+          "name": "Carne Roja",
+          "type": "",
+          "photo":
+            "https://static.larioja.com/noticias/201512/19/media/9924117.jpg",
+          "code": "85674",
+          "salePrice": 30.0,
+          "purchasePrice": 28.5,
+          "amount": 10,
+          "categoryId": 3
+        },
+        {
+          "id": 8,
+          "name": "Pollo",
+          "type": "",
+          "photo":
+            "https://s1.eestatic.com/2019/04/02/ciencia/nutricion/nutricion_387972895_119435861_1024x576.jpg",
+          "code": "74563",
+          "salePrice": 32,
+          "purchasePrice": 30.5,
+          "amount": 18,
+          "categoryId": 3
+        },
+        {
+          "id": 9,
+          "name": "Cerdo",
+          "type": "",
+          "photo":
+            "https://storage.contextoganadero.com/s3fs-public/styles/noticias_one/public/blog/field_image/2019-01/04-02_carne-cerdo.png?itok=e2jZZ00u",
+          "code": "76573",
+          "salePrice": 40.5,
+          "purchasePrice": 38.5,
+          "amount": 20,
+          "categoryId": 3
+        }
+      ]
+    },
+    {
+      "id":4,
+      "name":"Panaderia",
+      "products": [
+        {
+          "id": 10,
+          "name": "Pan de Trigo",
+          "type": "",
+          "photo":
+            "https://okdiario.com/img/2018/06/04/receta-de-pan-de-trigo.jpg",
+          "code": "45423",
+          "salePrice": 8.0,
+          "purchasePrice": 7.5,
+          "amount": 20,
+          "categoryId": 1
+        },
+        {
+          "id": 11,
+          "name": "Pan de Maiz",
+          "type": "",
+          "photo":
+            "https://t2.rg.ltmcdn.com/es/images/2/0/0/pan_de_maiz_7002_orig.jpg",
+          "code": "8756",
+          "salePrice": 8.0,
+          "purchasePrice": 7.5,
+          "amount": 20,
+          "categoryId": 1
+        },
+        {
+          "id": 12,
+          "name": "Pan Integral",
+          "type": "",
+          "photo":
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Vegan_Nine_Grain_Whole_Wheat_Bread.jpg/1200px-Vegan_Nine_Grain_Whole_Wheat_Bread.jpg",
+          "code": "9834",
+          "salePrice": 8.0,
+          "purchasePrice": 7.5,
+          "amount": 20,
+          "categoryId": 1
+        }
+      ]
     }
   ]
 }
