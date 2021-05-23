@@ -1,26 +1,28 @@
-[
-  {
-    "id": 1,
-    "name": "Coca Cola",
-    "type": "",
-    "photo":
-      "https://images-na.ssl-images-amazon.com/images/I/51iAZ2nZ4zL._SX679_.jpg",
-    "code": "87243",
-    "salePrice": 8.0,
-    "purchasePrice": 7.5,
-    "amount": 20,
-    "categoryId": 1
-  },
-  {
-    "id": 1,
-    "name": "Coca Cola",
-    "type": "",
-    "photo":
-      "https://images-na.ssl-images-amazon.com/images/I/51iAZ2nZ4zL._SX679_.jpg",
-    "code": "87243",
-    "salePrice": 8.0,
-    "purchasePrice": 7.5,
-    "amount": 20,
-    "categoryId": 1
-  }
-]
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Coca Cola",
+      "type": "",
+      "photo":
+        "https://images-na.ssl-images-amazon.com/images/I/51iAZ2nZ4zL._SX679_.jpg",
+      "code": "87243",
+      "salePrice": 8.0,
+      "purchasePrice": 7.5,
+      "amount": 20,
+      "categoryId": 1
+    },
+    {
+      "id": 1,
+      "name": "Coca Cola",
+      "type": "",
+      "photo":
+        "https://images-na.ssl-images-amazon.com/images/I/51iAZ2nZ4zL._SX679_.jpg",
+      "code": "87243",
+      "salePrice": 8.0,
+      "purchasePrice": 7.5,
+      "amount": 20,
+      "categoryId": 1
+    }
+  ]
+}
